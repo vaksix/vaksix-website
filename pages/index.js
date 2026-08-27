@@ -1,52 +1,28 @@
-import Navbar from '../components/Navbar';
-
 export default function Home() {
   return (
-    <div style={{
-      backgroundColor: '#000000',
-      color: '#f0f0f0',
-      minHeight: '100vh',
-      fontFamily: 'sans-serif',
-      display: 'flex',
-      flexDirection: 'column'
-    }}>
-      <Navbar />
-
-      <div style={{
-        flex: 1,
-        padding: '40px',
+    <div
+      style={{
+        backgroundColor: '#000000',
+        minHeight: '100vh',
         display: 'flex',
-        flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'center'
-      }}>
-        <h1 style={{
+        alignItems: 'center',
+        fontFamily: 'sans-serif',
+      }}
+    >
+      <h1
+        style={{
+          margin: 0,
+          color: '#e8e8e8',
           fontSize: '3rem',
-          marginBottom: '20px',
-          fontWeight: 'bold',
-          fontStyle: 'italic'
-        }}>
-          WELCOME to Website VAKSIX
-        </h1>
-
-        <p style={{
-          fontSize: '1.5rem',
-          marginBottom: '15px',
-          fontWeight: 'bold',
-          fontStyle: 'italic'
-        }}>
-          Enjoy the my channel and website VAKSIX
-        </p>
-
-        <p style={{
-          fontSize: '1.3rem',
           fontWeight: 'bold',
           fontStyle: 'italic',
-          opacity: 0.9
-        }}>
-          Oi lagi santay kawan... yo i lah leha-leha kita
-        </p>
-      </div>
+          letterSpacing: '2px',
+          textShadow: '0 0 8px rgba(255, 255, 255, 0.25)',
+        }}
+      >
+        vaksix.online
+      </h1>
     </div>
   );
 }
